@@ -1,0 +1,25 @@
+
+README
+
+Summary
+
+Simple web page design using Bootstrap for modern looking "responsive" web page.
+Mocha/Chai used for TDD/BDD.
+Javascript used for interactivity programming.
+
+
+Prerequisites :-
+
+JavaScript installed
+Browser
+
+
+Instructions for use :-
+
+1. Navigate to sub folder "DarrenB->src".
+
+2. To run the sample web page design, open "productSelection.html" web page in a browser of your choice (Chrome used for design work).
+Use as normal web page to select/deselect products in the basket. Click on "Checkout" button to confirm selections and be taken to a confirmation page ("confirmation.html"). 
+
+3. To run the Unit tests with Mocha/Chai Behaviour Driven Development, open the "testProductSelection.html" web page.
+

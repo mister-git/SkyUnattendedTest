@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Sky Product Selection</title>
+
+        <meta name="description" content="Sky Product Selection">
+        <meta name="author" content="Darren Bowden">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    
+    </head>
+   
+    <body onload="initProductSelectionPage()" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <img alt="www.sky.com" src="sky_logo.png" class="img-rounded" >
+                        
+                    <div class="jumbotron">
+                        <h2>
+                            Hello. Welcome to the Sky Product Selection page
+                        </h2>
+                        <p> 
+                            Please choose your products from the selections available below
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading">
+                        <h3 class="panel-title" contenteditable="true">Sports</h3>
+                      </div>
+                      <div class="panel-body" contenteditable="true"></div>
+                      
+                        <div class="well" style="max-height: 300px;overflow: auto;">
+                            <ul id="sportsList" class="list-group checked-list-box">
+                            </ul>
+                        </div>
+                     </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading">
+                        <h3 class="panel-title" contenteditable="true">News</h3>
+                      </div>
+                      <div class="panel-body" contenteditable="true"></div>
+                      
+                        <div class="well" style="max-height: 300px;overflow: auto;">
+                            <ul id="newsList" class="list-group checked-list-box">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" contenteditable="true">Your Basket</h3>
+                        </div>
+                            
+                        <div class="panel-body" contenteditable="true"></div>
+                  
+                        <div class="well" style="max-height: 300px;overflow: auto; padding:5px">
+                            <ul class="list-group checked-list-box" id="basketListbox">
+                              
+                            </ul>
+                        </div>  
+                        
+                        <input id="btnCheckout" type="submit" class="btn btn-info btn-md btn-block" value="Checkout" onclick="btnCheckoutClick()">    
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="row">
+                <img alt="www.sky.com" src="f1.png" class="img-rounded" height="300" width="1500">
+            </div>
+        </div>
+            
+       
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+         
+        <script src="js/myInitialise.js"></script>
+        <script src="js/myGeneralScripts.js"></script>
+        <script src="js/myCatalogueService.js"></script> 
+        <script src="js/myCustomerLocationService.js"></script>
+        
+        <noscript>To use this site, please enable JavaScript.</noscript>
+            
+    </body>
+    
+</html>
